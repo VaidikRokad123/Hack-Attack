@@ -1,0 +1,10 @@
+﻿Soil Type,Cotton,wheat,jowar,corn,pulses,linseed, Millets,sugarcane, groundnut,rise,oilseeds,maize,tea,coffee,cocunut,sugar beet,rubber
+Alluvial Soils,1,1,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0
+Black Soil,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,0
+Mixed Red and Black Soils,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0
+Residual Sandy Soils,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0
+Saline/Alkali Soils,1,0,0,0,1,0,0,0,0,1,0,0,1,1,1,1,1
+Lateritic Soils,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+ Hilly Soils,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Desert Soils,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Forest Soils,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0

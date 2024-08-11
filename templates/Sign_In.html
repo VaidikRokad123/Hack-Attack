@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="Sign_In.css">  
+
+    <script src="signin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> 
+
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.jpeg" alt="">
+    </div>
+    <div class="signup-box">
+        <h1>&nbsp;&nbsp;Sign In</h1>
+        <form name="signupForm" onsubmit="return validateForm()"> 
+            <label>E-mail or Phone number</label>
+            <input type="email" name="email" placeholder="">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="At least 6 characters">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>By clicking the Sign Up button, you agree to our<br><a href="#">Terms and Conditions</a> and <a href="#">Privacy Notice</a></p>
+    </div>
+    <p class="para-2">You have not an account? <a href="login.html">Create Account</a></p>
+    <footer>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use </a>
+                <a>Privacy Notice </a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 2023-2024, Agriculture Food For Life.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; /* center navbar */
+    align-items: center;
+    padding: 0rem;
+    color: black;
+  }
+  
+  .logo {
+    margin-right: 280px;
+    margin-bottom: 20px; /* add space between logo and nav links */
+  }
+  
+  .logo img {
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 25px;
+    justify-content: space-between; /* add space between nav links */
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: black;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  
+  .photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .photo {
+    width: 105%;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .button-left {
+    background-color: transparent; /* make button transparent */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .button-right {
+    background-color: transparent; /* make button transparent */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .button-left:hover, .button-right:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* add slight transparent background on hover */
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); /* add transparent background with some darkness */
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+/*footer*/
+
+footer{
+    margin-top: 15px;
+}
+
+
+.foot-panel2{
+    background-color: #37373a;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+#email{
+    text-decoration: underline;
+    color:#505c5b;
+    margin-top: 5px;
+}
+
+#APP{
+    margin-top: 10px;
+}
+
+#FOOTERimage{
+    width: 200px;
+    height: 40px;
+}
+
+
+.logo{
+    background-image: url(IWP_project_img.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #4d4d55;
+    color: #ffffff;  
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}

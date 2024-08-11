@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 170px;
+    width: 500px;
+}
+
+.signup-box{
+    width: 360px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0px auto 25px auto;
+}
+
+h1{
+    text-align: left;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+form input:hover{
+    border: 3px solid #adcbe7;
+}
+
+form select{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+form select:hover{
+    border: 3px solid #adcbe7;
+}
+
+form input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#bec032 ;
+    color: black;
+    font-size: 18px;
+}
+form input[type="submit"]:hover{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: 2px solid #ecf010;
+    background-color:#9a9c08;
+    color: black;
+    font-size: 18px;
+}
+
+h5 p{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.para-2 a{
+    color: #49c1a2;
+}
+
+.foot-panel4{
+    background-color: #f6fafb;
+    color: #000000;  
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
+
+/* Added styles for city dropdown and user input */
+form .city-label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form .city-input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+form .city-input:hover {
+    border: 3px solid #adcbe7;
+}
+
+form .city-select {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+form .city-select:hover {
+    border: 3px solid #adcbe7;
+}

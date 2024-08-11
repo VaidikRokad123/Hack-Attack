@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Farmer Input - Smart Farming Platform</title>
+
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"> -->
+    <!-- <link rel="stylesheet" href="C:/Users/HP/Desktop/hackathon/hackathon/py/static/css/first_farmer.css"> -->
+    <link rel="stylesheet" href="../static/css/first_farmer.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+          <img src="../static/img/logo.jpeg" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="../static/web/sell-buy.html">Buy</a></li>
+          <li><a href="../static/web/sell.html">Sell</a></li>
+          <li><a href="../static/web/first-farmer-input.html">First-Farmer Input</a></li>
+          <li><a href="../static/web/second-farmer-input.html">Secong Farmer Input</a></li>
+          <li><a href="../static/web/about_us.html">About us</a></li>
+          <li><a href="../static/web/Sign_In.html">Sign in</a></li>
+        </ul>
+      </nav>
+    <!-- Header -->
+    <header>
+        <h1>Smart Farming Platform</h1>
+    </header>
+
+    <!-- Navigation -->
+    
+
+    <!-- Second Farmer Input Page Content -->
+    <div class="container">
+        <h2>Get Crop Recommendations</h2>
+        <form>
+            <div class="form-group">
+                <label for="soil-type">Soil Type:</label>
+                <input type="text" id="soil-type" name="soil-type">
+            </div>
+            <div class="form-group">
+                <label for="planting-month">Month of season:</label>
+                <input type="text" id="planting-month" name="planting-season">
+            </div>
+            <button type="submit" class="button">Get Recommendations</button>
+        </form>
+
+        <!-- Space to display crop recommendations -->
+        <div id="recommendations">
+            <!-- Recommendations would be displayed here after form submission -->
+        </div>
+    </div>
+    &nbsp;
+    <div style="text-align: center;">
+        <p>{{val}}</p>
+        
+    </div>
+    &nbsp;
+    <!-- Footer -->
+    <footer>
+    
+        <div class="foot-panel2">
+            <ul>
+                <p><b>Products</b></p>
+                <a>grocery</a>
+                <a>GroTron Autonomous</a>
+                <a>GroTron Marketplace</a>
+                <a></a>
+                <a>Vegetables</a>
+                <a>Premium Fruits</a>
+            </ul>
+            <ul>
+               <p><b>Solutions</b></p> 
+               <a>Crop planning & Production</a>
+               <a>Pest & Disease Control</a>
+               <a>Nutrition Management</a>
+               <a>Home Care</a>     
+            </ul>
+            <ul>
+                <p><b>Help & Support</b></p>
+                <a>About Us</a>
+                <a>FAQ</a>
+                <a>Terms & Conditions</a>
+                <a>Privacy Policy</a>
+                <a>E-waste Policy</a>
+                <a>Cancellation & Return Policy</a>           
+            </ul>
+            <ul>
+                <p><h3>Contact Us</h3></p>                
+                <a>Call us: 1800 758 1332</a>
+                <a>8:00 AM to 8:00 PM, 365 Days</a>
+    
+                 <a><p>Any Query please email us on <p id="email">fenil@oneclickshop.com</p></p></a>
+                <p><h2 id="APP">Download the app</h2></p>
+                <img src="IMAGE_IWP.jpg" id="FOOTERimage">
+            </ul>
+            
+        </div>
+    
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conitions of Use </a>
+                <a>Privacy Notice </a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 2023-2024, Agriculture Food For Life.com Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    
+  
+
+</body>
+<script>
+   
+</script>
+
+</html>
