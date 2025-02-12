@@ -48,6 +48,6 @@ Hack-Attack/
 3. Interact with the UI and explore functionalities.
 
 ## 🤝 Contributors
-- Vaidik Roakad
+- Vaidik Rokad
 
 
